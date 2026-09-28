@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Für Yanncito ♡</title>
+<style>
+*{box-sizing:border-box} body{margin:0;min-height:100vh;font-family:Georgia,serif;background:linear-gradient(135deg,#ffdce8,#fff4f8,#fbd1df);color:#633847;overflow-x:hidden}
+.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0} .heart{position:absolute;animation:float 7s linear infinite;opacity:.55;font-size:22px}
+@keyframes float{from{transform:translateY(110vh) rotate(0)}to{transform:translateY(-15vh) rotate(360deg)}}
+.screen{position:relative;z-index:2;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.card{max-width:850px;width:100%;background:rgba(255,255,255,.78);backdrop-filter:blur(8px);border-radius:30px;padding:38px;box-shadow:0 18px 55px rgba(150,70,100,.2);text-align:center}
+h1{font-size:clamp(34px,7vw,62px);margin:5px 0;color:#c75c82} .subtitle{font-size:19px;margin-bottom:28px}
+button,.download{border:0;border-radius:999px;padding:15px 25px;background:#d86691;color:white;font-size:17px;font-weight:bold;cursor:pointer;box-shadow:0 8px 20px rgba(200,80,130,.25);text-decoration:none;display:inline-block}
+button:hover,.download:hover{transform:translateY(-2px)}
+.hidden{display:none} .letter-wrap{max-width:760px;margin:auto;position:relative;padding:16px}
+.letter{background:#fffafc;border:8px solid #f2b4c9;border-radius:25px;padding:35px 38px;text-align:left;position:relative;box-shadow:0 10px 35px rgba(130,60,90,.16)}
+.letter:before{content:"♥ ♡ ♥ ♡ ♥ ♡ ♥ ♡ ♥";position:absolute;top:-25px;left:0;right:0;text-align:center;color:#df789b;background:#fffafc;font-size:22px;letter-spacing:5px}
+.letter:after{content:"♥ ♡ ♥ ♡ ♥ ♡ ♥ ♡ ♥";position:absolute;bottom:-25px;left:0;right:0;text-align:center;color:#df789b;background:#fffafc;font-size:22px;letter-spacing:5px}
+.letter p{font-size:17px;line-height:1.75;margin:0 0 18px}
+.actions{text-align:center;margin-top:30px} .tiny{font-size:13px;opacity:.7;margin-top:12px}
+.toy{position:fixed;z-index:3;font-size:58px;pointer-events:none;filter:drop-shadow(0 4px 4px rgba(0,0,0,.15));animation:appear 6s ease-in-out infinite}
+.toy1{left:-80px;top:18%;animation-name:cross} .toy2{right:-80px;top:62%;animation-name:cross2;animation-delay:3s} .toy3{left:8%;bottom:7%;animation-name:bounce}
+@keyframes cross{0%,70%{left:-80px} 82%{left:12px} 92%{left:12px} 100%{left:-80px}}
+@keyframes cross2{0%,65%{right:-80px} 80%{right:15px} 90%{right:15px} 100%{right:-80px}}
+@keyframes bounce{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-18px) rotate(5deg)}}
+.note{margin-top:15px;font-family:Arial,sans-serif;font-size:12px;opacity:.7}
+</style>
+</head>
+<body>
+<div class="hearts" id="hearts"></div>
+<div class="toy toy1">🤠</div>
+<div class="toy toy2">👽</div>
+<div class="toy toy3">🚀</div>
+
+<section class="screen" id="welcome">
+ <div class="card">
+   <div style="font-size:42px">♡ ♥ ♡</div>
+   <h1>Für Yanncito</h1>
+   <div class="subtitle">Isi hat etwas für dich... 💗</div>
+   <button onclick="openLetter()">Hier drücken, um zu lesen</button>
+   <div class="note">Made with all my love, Isi ♡</div>
+ </div>
+</section>
+
+<section class="screen hidden" id="letterScreen">
+ <div class="card">
+  <div class="letter-wrap">
+   <article class="letter">
+    <div style="text-align:center;font-size:28px;color:#c75c82;margin-bottom:20px">Für meinen Lieblingsmenschen ♡</div>
+    <p>Dearest Yann:<br><br>I know I didn&#x27;t write you a letter before your trip, and that is why I have decided to leave you these words today.</p>
+<p>I want to tell you, from the very depths of my heart, that you gave me the most wonderful trip of my life. I will forever treasure every moment, every detail, and all the immense love you gave me during our time together.</p>
+<p>I infinitely value how patient, sweet, and happy you were with me, as well as all the sincere affection you showed me; absolutely everything was magical and unforgettable. I love you with all my soul, and I hope we can see each other again very soon, so your kisses can return to warm my heart. I wish for us to keep building our dreams and to be together forever. That is why, my love, I pray that we wait for one another during this time apart; I know it will be hard and that the nostalgia will hurt, but I fully trust that our love will emerge victorious until we grow old together in our home, eternally happy.</p>
+<p>I love you, Yann. You made every single day and night of our trip completely unforgettable. Your joy made me feel safe and secure at all times, turning every instant into a sweet and eternal memory.</p>
+<p>Eating together, gazing at the city from the funicular, immersing ourselves in the warmth of the hot springs, kissing in every corner, walking endlessly just for the joy of holding hands, tenderly taking care of you when you were sick, making love, admiring the majesty of the mountains by your side, dancing together at the party and in the intimacy of our room, singing with our whole hearts on the bus, strolling through the markets hand in hand, cooking for you, excitedly choosing what to eat, and seeing your eyes light up with wonder as you discovered my country... All of that, and so much more, left an indelible mark on my soul.</p>
+<p>Please remember each of these beautiful moments when the distance or sadness weighs heavily on you, and think of me in your daily life and as you start your classes. Look back and remember everything we risked to be together and how sublime it turned out to be. If at any moment I went too far with my words or my anger, I ask for your forgiveness from the bottom of my heart; I want to be a better person for you every day and always be the woman you fell in love with.</p>
+<p>I am counting the days until you can return to my arms and never leave me, my love. Our story is just beginning, and the best is yet to come.</p>
+<p>With all my love,<br>Isi ♡</p>
+   </article>
+  </div>
+  <div class="actions">
+   <a class="download" href="Carta_para_Yanncito.pdf" download>💌 Descargar mi carta en PDF</a>
+   <p class="tiny">Puedes guardarla en tu teléfono para leerla incluso sin wifi.</p>
+   <p style="margin-top:22px">🎵 <a href="https://www.youtube.com/results?search_query=Perdoname+La+Reina+del+Flow" target="_blank" rel="noopener">Escuchar nuestra canción</a></p>
+  </div>
+ </div>
+</section>
+
+<script>
+function openLetter(){
+ document.getElementById('welcome').classList.add('hidden');
+ document.getElementById('letterScreen').classList.remove('hidden');
+ window.scrollTo({top:0,behavior:'smooth'});
+}
+const h=document.getElementById('hearts');
+for(let i=0;i<24;i++){
+ const s=document.createElement('span'); s.className='heart'; s.textContent=Math.random()>.5?'♥':'♡';
+ s.style.left=(Math.random()*100)+'%'; s.style.animationDelay=(-Math.random()*7)+'s';
+ s.style.animationDuration=(5+Math.random()*6)+'s'; h.appendChild(s);
+}
+</script>
+</body>
+</html>
